@@ -1,0 +1,11 @@
+{
+  "code-runner.executorMap": {
+    "cpp": "g++ $fullFileName -o main && Get-Content input.txt | .\\main > output.txt && del main.exe",
+    "c": "gcc $fullFileName -o main && Get-Content input.txt | .\\main > output.txt && del main.exe"
+  },
+  "files.associations": {
+    "iostream": "cpp",
+    "chrono": "cpp",
+    "span": "cpp"
+  }
+}
